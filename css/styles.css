@@ -377,6 +377,7 @@ input[type='checkbox'] {
 	font-size: 0.875rem;
 	line-height: 0.875rem;
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
+	margin-top: 0;
 }
 
 .navbar .navbar-brand {
@@ -521,7 +522,7 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') right center no-repeat;
 	background-size: cover;
 	text-align: left;
 }
@@ -529,6 +530,7 @@ input[type='checkbox'] {
 .header .h1-large {
 	margin-bottom: 1.75rem;
 	color: #ffffff;
+	text-align: left;
 }
 
 .header .btn-solid-lg:hover {
@@ -537,7 +539,7 @@ input[type='checkbox'] {
 }
 
 .header .btn-outline-lg {
-	padding: 1.625rem 1.625rem 1.625rem 1.625rem;
+	/* padding: 1.625rem 1.625rem 1.625rem 1.625rem; */
 	border: none;
 	color: #ffffff;
 }
