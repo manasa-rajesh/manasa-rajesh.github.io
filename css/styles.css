@@ -724,6 +724,11 @@ input[type='checkbox'] {
 	-webkit-transform: scale(1.15);
 	transform: scale(1.15);
 } 
+
+.img.resize {
+	width:200px;
+	height:40px;
+  }
 /* end of hover animation */
 
 
